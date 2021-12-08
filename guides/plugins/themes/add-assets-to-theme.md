@@ -71,5 +71,5 @@ body {
 
 Now that you know how to use your assets in a theme, here is a list of other related topics where assets can be used.
 
-* [Customize templates](../plugins/storefront/customize-templates.md)
+* [Customize templates](customize-templates.md)
 

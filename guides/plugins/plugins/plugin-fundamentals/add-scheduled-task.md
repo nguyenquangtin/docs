@@ -6,7 +6,7 @@ Quite often one might want to run any type of code on a regular basis, e.g. to c
 
 ## Prerequisites
 
-This guide is built upon our [plugin base guide](../plugin-base-guide.md), but that one is not mandatory. Knowing how the `services.xml` file in a plugin works is also helpful, which will be taught in our guides about [Dependency Injection](dependency-injection.md) and [Creating a service](add-custom-service.md). It is shortly explained here as well though, so no worries!
+This guide is built upon our [plugin base guide](plugin-base-guide.md), but that one is not mandatory. Knowing how the `services.xml` file in a plugin works is also helpful, which will be taught in our guides about [Dependency Injection](dependency-injection.md) and [Creating a service](SHOPWARE/docs/guides/plugins/plugins/plugin-fundamentals/add-custom-service.md). It is shortly explained here as well though, so no worries!
 
 <!-- markdown-link-check-disable-next-line -->
 {% hint style="info" %}

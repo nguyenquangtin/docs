@@ -93,7 +93,7 @@ To do this, create a folder with the name snippet in your `sw-cms` folder. After
 }
 ```
 
-To learn more about adding own snippets, please refer to [Add snippets to administration](../../administration/adding-snippets.md) for more information.
+To learn more about adding own snippets, please refer to [Add snippets to administration](adding-snippets.md) for more information.
 
 For all three fields `component`, `configComponent` and `previewComponent`, components that do not _yet_ exist were applied. Those will be created in the next few steps as well. The `defaultConfig` defines the default values for the element's configuration. There will be a text field to enter a Dailymotion video ID called `dailyUrl`.
 

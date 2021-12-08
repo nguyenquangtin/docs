@@ -17,7 +17,7 @@ The Administration component is a Symfony bundle which contains a Single Page Ap
 
 ## Main concerns
 
-As mentioned preliminary, the Administration component provides a SPA which communicates with the Core through the [Admin API](../../../concepts/api/admin-api.md). To summarize, its main concern is to provide a UI for all administrative tasks for a shop owner in Shopware. And to be more precise: It does not contain any business logic. Therefore, there is no functional layering, but a flat list of modules structured along the Core component and containing Vue.js web components. Every single communication with the Core can e.g. be inspected throughout the network activities of your browsers developer tools.
+As mentioned preliminary, the Administration component provides a SPA which communicates with the Core through the [Admin API](admin-api.md). To summarize, its main concern is to provide a UI for all administrative tasks for a shop owner in Shopware. And to be more precise: It does not contain any business logic. Therefore, there is no functional layering, but a flat list of modules structured along the Core component and containing Vue.js web components. Every single communication with the Core can e.g. be inspected throughout the network activities of your browsers developer tools.
 
 Apart from the - arguably most central - responsibility of creating the UI itself, which can be reached through `/admin` , the Administrations components implement a number of cross-cutting concerns. The most important are:
 
@@ -89,7 +89,7 @@ At least one `page` is mandatory in each module. Though views and components can
 
 ### Order module
 
-Having a look at a more practical example, one can look closer at the order module. Typically, you'll find this structure alongside other modules. Especially, when it comes to creating pages or views for creating/editing, listing or viewing a specific entity. Please head to the [Add custom module](../../../guides/plugins/plugins/administration/add-custom-module.md) article if you want to learn more about adding your custom module with a Shopware plugin.
+Having a look at a more practical example, one can look closer at the order module. Typically, you'll find this structure alongside other modules. Especially, when it comes to creating pages or views for creating/editing, listing or viewing a specific entity. Please head to the [Add custom module](add-custom-module.md) article if you want to learn more about adding your custom module with a Shopware plugin.
 
 ```bash
 <platform/src/Administration/Resources/app/administration/src/module/sw-order/>

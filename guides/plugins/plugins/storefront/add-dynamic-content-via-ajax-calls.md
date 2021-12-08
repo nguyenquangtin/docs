@@ -145,5 +145,5 @@ The only thing that is now left, is to provide a template for the storefront plu
 
 ## Next steps
 
-The controller we used in this example doesn't do a lot, but this pattern of providing and using data is generally the same. Even if you use it to fetch data form the database, but in that case you probably want to learn more about the DAL [here](../../../../concepts/framework/data-abstraction-layer.md).
+The controller we used in this example doesn't do a lot, but this pattern of providing and using data is generally the same. Even if you use it to fetch data form the database, but in that case you probably want to learn more about the DAL [here](data-abstraction-layer.md).
 

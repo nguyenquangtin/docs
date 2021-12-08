@@ -6,9 +6,9 @@ This guide will teach you everything you need to know in order to write data to 
 
 ## Prerequisites
 
-This guide is built upon the [plugin base guide](../../plugin-base-guide.md), so having a look at it first won't hurt. Having read the guide about [reading data](reading-data.md) or understanding how to read data is mandatory for at least one short part of this guide.
+This guide is built upon the [plugin base guide](plugin-base-guide.md), so having a look at it first won't hurt. Having read the guide about [reading data](reading-data.md) or understanding how to read data is mandatory for at least one short part of this guide.
 
-You also might want to have a look at the concept behind the [Data abstraction layer](../../../../../concepts/framework/data-abstraction-layer.md) first to get a better grasp of how it works.
+You also might want to have a look at the concept behind the [Data abstraction layer](data-abstraction-layer.md) first to get a better grasp of how it works.
 
 <!-- markdown-link-check-disable-next-line -->
 {% hint style="info" %}

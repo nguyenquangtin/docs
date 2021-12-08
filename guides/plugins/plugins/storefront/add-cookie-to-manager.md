@@ -6,7 +6,7 @@ Since the GDPR was introduced, every website has to be shipped with some sort of
 
 ## Prerequisites
 
-This guide is built upon the [plugin base guide](../plugin-base-guide.md), so have a look at that first if you're lacking a running plugin. Also you will have to know [how to create your own service](../plugin-fundamentals/add-custom-service.md) and [how decorations work in general](../plugin-fundamentals/adjusting-service.md), so you might want to have a look at those guides as well.
+This guide is built upon the [plugin base guide](plugin-base-guide.md), so have a look at that first if you're lacking a running plugin. Also you will have to know [how to create your own service](SHOPWARE/docs/guides/plugins/plugins/plugin-fundamentals/add-custom-service.md) and [how decorations work in general](adjusting-service.md), so you might want to have a look at those guides as well.
 
 ## Extend the cookie consent manager
 

@@ -6,7 +6,7 @@ In this guide you'll learn how to create your own event. You can read more about
 
 ## Prerequisites
 
-In order to create your own event for your plugin, you first need a plugin as base. Therefore, you can refer to the [Plugin Base Guide](../../plugin-base-guide.md).
+In order to create your own event for your plugin, you first need a plugin as base. Therefore, you can refer to the [Plugin Base Guide](plugin-base-guide.md).
 
 <!-- markdown-link-check-disable-next-line -->
 {% hint style="info" %}
@@ -116,5 +116,5 @@ class ExampleEventService
 
 ## Next steps
 
-Now that you know how to create your own event, you may want to act on it. To get a grip on this, head over to our [Listening to events](../../plugin-fundamentals/listening-to-events.md) guide.
+Now that you know how to create your own event, you may want to act on it. To get a grip on this, head over to our [Listening to events](listening-to-events.md) guide.
 

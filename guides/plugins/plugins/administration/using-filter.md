@@ -6,7 +6,7 @@ In this guide you'll learn how to use filters in the Shopware administration.
 
 ## Prerequisites
 
-This guide requires you to already have a basic plugin running. If you don't know how to do this in the first place, have a look at our [Plugin base guide](../plugin-base-guide.md).
+This guide requires you to already have a basic plugin running. If you don't know how to do this in the first place, have a look at our [Plugin base guide](plugin-base-guide.md).
 
 Furthermore you should have a look at our [add filter](add-filter.md) guide, since this guide is built upon it.
 

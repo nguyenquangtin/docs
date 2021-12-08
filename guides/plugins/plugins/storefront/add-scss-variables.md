@@ -31,7 +31,7 @@ $sass-plugin-header-bg-color: #ffcc00 !default;
 
 ## Theme variables subscriber
 
-You can add a new subscriber according to the [Listening to events](../plugin-fundamentals/listening-to-events.md) guide. In this example we name the subscriber `ThemeVariableSubscriber`. The subscriber listens to the `ThemeCompilerEnrichScssVariablesEvent`.
+You can add a new subscriber according to the [Listening to events](listening-to-events.md) guide. In this example we name the subscriber `ThemeVariableSubscriber`. The subscriber listens to the `ThemeCompilerEnrichScssVariablesEvent`.
 
 {% tabs %}
 {% tab title="<plugin root>/src/Subscriber/ThemeVariableSubscriber.php" %}
@@ -93,7 +93,7 @@ Please note that plugins are not sales channel specific. Your SCSS variables are
 
 Inside your `ThemeVariableSubscriber` you can also read values from the plugin configuration and assign those to a SCSS variable. This makes it also possible to have different values for each sales channel. Depending on the selected sales channel inside the plugin configuration in the administration.
 
-First, lets add a new plugin configuration field according to the [Plugin Configurations](../plugin-fundamentals/add-plugin-configuration.md):
+First, lets add a new plugin configuration field according to the [Plugin Configurations](add-plugin-configuration.md):
 
 {% code title="<plugin root>/src/Resources/config/config.xml" %}
 ```markup

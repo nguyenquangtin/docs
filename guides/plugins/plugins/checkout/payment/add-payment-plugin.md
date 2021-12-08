@@ -6,9 +6,9 @@ Payments are an essential part of the checkout process. That's the reason why Sh
 
 ## Prerequisites
 
-The examples mentioned in this guide are built upon our [Plugin base guide](../../plugin-base-guide.md).
+The examples mentioned in this guide are built upon our [Plugin base guide](plugin-base-guide.md).
 
-If you want to understand the payment process in detail, head to our [Payment Concept](../../../../../concepts/commerce/checkout-concept/payments.md). 
+If you want to understand the payment process in detail, head to our [Payment Concept](payments.md). 
 
 <!-- markdown-link-check-disable-next-line -->
 {% hint style="info" %}
@@ -37,7 +37,7 @@ Both methods get the `\Shopware\Core\System\SalesChannel\SalesChannelContext` in
 
 ### Registering the service
 
-Before we're going to have a look at both a synchronous, as well as an asynchronous example, we need to register our new service to the [Dependency Injection](../../plugin-fundamentals/dependency-injection.md) container. We'll use a class called `ExamplePayment` here.
+Before we're going to have a look at both a synchronous, as well as an asynchronous example, we need to register our new service to the [Dependency Injection](dependency-injection.md) container. We'll use a class called `ExamplePayment` here.
 
 {% code title="<plugin root>/src/Resources/config/services.xml" %}
 ```markup
@@ -312,7 +312,7 @@ class SwagBasicExample extends Plugin
 ```
 {% endcode %}
 
-In the `install` method, you actually start by creating a new payment method, if it doesn't exist yet. If you don't know what's happening in there, you might want to have a look at our guide regarding [Writing data](../../framework/data-handling/writing-data.md).
+In the `install` method, you actually start by creating a new payment method, if it doesn't exist yet. If you don't know what's happening in there, you might want to have a look at our guide regarding [Writing data](writing-data.md).
 
 However, **do not** do the opposite in the `uninstall` method and remove the payment method. This might lead to data inconsistency, if the payment method was used in some orders. Instead, only deactivate the method!
 

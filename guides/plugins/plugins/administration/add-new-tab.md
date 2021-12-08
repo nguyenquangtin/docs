@@ -21,7 +21,7 @@ Also, we will use a small, custom component to fill our custom tab. In order to 
 {% hint style="info" %}
 ### Please remember
 
-The main entry point to customize the administration via plugin is the `main.js` file. It has to be placed into a `<plugin root>/src/Resources/app/administration/src` directory in order to be found by Shopware 6. So please use the file accordingly and refer to the [plugin base guide](../plugin-base-guide.md) for more details.
+The main entry point to customize the administration via plugin is the `main.js` file. It has to be placed into a `<plugin root>/src/Resources/app/administration/src` directory in order to be found by Shopware 6. So please use the file accordingly and refer to the [plugin base guide](plugin-base-guide.md) for more details.
 {% endhint %}
 
 ## Creating a custom tab

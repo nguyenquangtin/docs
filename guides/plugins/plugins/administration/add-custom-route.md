@@ -81,7 +81,7 @@ The `bundle-name` is separated by dots instead of dashes here though. The second
 
 ## More interesting topics
 
-* [Adding a custom service](add-custom-service.md)
+* [Adding a custom service](SHOPWARE/docs/guides/plugins/plugins/administration/add-custom-service.md)
 * [Customizing a module](customizing-modules.md)
 * [Adding permissions](add-acl-rules.md)
 

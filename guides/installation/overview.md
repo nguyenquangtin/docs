@@ -4,9 +4,9 @@
 
 There are a couple of ways to get Shopware running on your system. Depending on what best suits your development environment, you have the following choices:
 
-* [Docker](docker.md): The docker installation is the easiest way to get a running Shopware 6.
+* [Shopware with Docker](Shopware%20with%20Docker.md): The docker installation is the easiest way to get a running Shopware 6.
 * [MAMP](mamp.md): For quick and easy installation you can also use MAMP tool on mac.
-* [Valet+](valet.md): You can install Shopware with the epl of Valet+, which is a fork of laravel/valet. 
+* [Valet+](Shopware%20install%20valet+.md): You can install Shopware with the epl of Valet+, which is a fork of laravel/valet. 
 * [Dockware](dockware.md): This is a managed docker setup for Shopware 6 by shopware agency dasistweb.
 * [Installation from scratch](from-scratch.md): You can install Shopware 6 locally. However, be aware that this will be the more complex solution since additional or changed system requirements need to be managed by you.
 
@@ -22,7 +22,7 @@ You can technically use any text editor you wish to develop in. However, many de
 
 For JavaScript development, many developers go with [Visual Studio Code](https://code.visualstudio.com/) (short VSCode). For PHP development, many developers go with [PHPStorm](https://www.jetbrains.com/phpstorm/). Both tools offer a marketplace with plugins or extensions. To learn more, check out the [IDE](../../resources/tooling/ide) section.
 
-If you are going to write Shopware extensions based on the [App System](../../concepts/extensions/apps-concept.md), you can really choose whatever programming language or runtime you want, so choose whatever Editor or IDE suits you best.
+If you are going to write Shopware extensions based on the [App System](apps-concept.md), you can really choose whatever programming language or runtime you want, so choose whatever Editor or IDE suits you best.
 
 ### System requirements
 
@@ -170,7 +170,7 @@ Otherwise, the Shopware platform code would be placed into a `vendor/shopware/pl
 
 As already mentioned, there are several ways to install Shopware. So we got you covered, no matter which operation system or environment you like to use. Head over to whatever way you like:
 
-* [Docker](docker.md)
+* [Shopware with Docker](Shopware%20with%20Docker.md)
 * [Dockware](dockware.md)
-* [Valet+](valet.md)
+* [Valet+](Shopware%20install%20valet+.md)
 * [MAMP](mamp.md)

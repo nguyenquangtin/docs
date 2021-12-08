@@ -6,7 +6,7 @@ In this guide you'll learn how to version your entities. The entity versioning s
 
 ## Prerequisites
 
-In order to add your own versioned entities for your plugin, you first need a plugin as base. Therefore, you can refer to the [Plugin Base Guide](../../plugin-base-guide.md).
+In order to add your own versioned entities for your plugin, you first need a plugin as base. Therefore, you can refer to the [Plugin Base Guide](plugin-base-guide.md).
 
 Furthermore you should have a look at our [Adding custom complex data](add-custom-complex-data.md) guide, since this guide is built upon it.
 

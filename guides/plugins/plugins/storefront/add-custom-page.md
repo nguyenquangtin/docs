@@ -6,7 +6,7 @@ In this guide you'll learn how to create custom page for your Storefront. A page
 
 ## Prerequisites
 
-In order to add your own custom page for your plugin, you first need a plugin as base. Therefore, you can refer to the [Plugin Base Guide](../plugin-base-guide.md). Since you need to load your page with a controller, you might want to have a look at our guide about [creating a controller](add-custom-controller.md) first. The controller created in the previously mentioned controller guide will also be used in this guide.
+In order to add your own custom page for your plugin, you first need a plugin as base. Therefore, you can refer to the [Plugin Base Guide](plugin-base-guide.md). Since you need to load your page with a controller, you might want to have a look at our guide about [creating a controller](add-custom-controller.md) first. The controller created in the previously mentioned controller guide will also be used in this guide.
 
 ## Adding custom page
 
@@ -211,7 +211,7 @@ class ExamplePage extends Page
 ```
 {% endcode %}
 
-As explained in the page loader section, your page can contain all kinds of custom data. It has to provide a getter and a setter for the custom data, so it can be applied and read. In this example, the entity from our guide about [creating custom complex data](../framework/data-handling/add-custom-complex-data.md#Entity%20class) is being used.
+As explained in the page loader section, your page can contain all kinds of custom data. It has to provide a getter and a setter for the custom data, so it can be applied and read. In this example, the entity from our guide about [creating custom complex data](add-custom-complex-data.md#Entity%20class) is being used.
 
 And that's it already. Your page is ready to go.
 

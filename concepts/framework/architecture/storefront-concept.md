@@ -25,7 +25,7 @@ There are a few main concerns which the Storefront component has. To give you a 
 
 Contrary to API calls that result in single resource data, a whole page in the Storefront displays multiple different data sets on a single page. Think of partials, which lead to a single page being displayed. Imagine a page which displays the order overview in the customer account environment. There are partials which are generic and will be displayed on almost every page. These partials include for example Header and Footer information and are being wrapped into a `GenericPage` as our so called `Pagelets` \(`HeaderPagelet`, `FooterPagelet`\). This very generic page will afterwards be enriched with the specific information you want to display through a separate loader \(e.g. a list of orders\).
 
-To achieve getting information from a specific resource, the Storefronts second concern is to map requests to the Core. Internally, the Storefront makes use of our [Store API](../../api/store-api.md) routes to enrich the Page with additional information like e.g. a list of orders, which is being fetched through the order route. Once all needed information were added to the page, the corresponding page loader returns the page to a Storefront controller.
+To achieve getting information from a specific resource, the Storefronts second concern is to map requests to the Core. Internally, the Storefront makes use of our [Store API](SHOPWARE/docs/concepts/api/store-api.md) routes to enrich the Page with additional information like e.g. a list of orders, which is being fetched through the order route. Once all needed information were added to the page, the corresponding page loader returns the page to a Storefront controller.
 
 Contrary to the Core that can almost completely omit templating in favor JSON responses, the Storefront contains a rich set of Twig templates to display a fully functional shop. Having said that, another concern of the Storefront is to provide templating with Twig. The page object, which was enriched beforehand, will afterwards be passed to a specific Twig page template throughout a controller. A more detailed look into an example can be found in [Composite data handling](storefront-concept.md#composite-data-handling).
 
@@ -78,7 +78,7 @@ Starting to describe how the composition of the page works, we would at first li
 * This page exists of generic information \(e.g. Header, Footer\) and detailed information \(e.g. a list of orders\).
 * Detailed information should be fetched throughout the Core component to make usage of
 
-the [Store API routes](../../api/store-api.md).
+the [Store API routes](SHOPWARE/docs/concepts/api/store-api.md).
 
 The best entry point to give you a good understanding how the composition works, is the corresponding Controller. In our case it is the `AccountOrderController`. The main and only task of the controller is to assign a page struct to a variable, which will later be passed to a Twig template. The page is received by the specific `AccountOrderPageLoader`. Additionally, the method annotations of the controller do also set routing information like path, name, options and methods.
 

@@ -6,7 +6,7 @@ This short guide will come with some examples on how to delete associated data o
 
 ## Prerequisites
 
-This example will be built upon the [plugin base guide](../../plugin-base-guide.md), so having a look at it will come in handy.
+This example will be built upon the [plugin base guide](plugin-base-guide.md), so having a look at it will come in handy.
 
 Also, the same subject was already mentioned in our guide about [Replacing associated data](replacing-associated-data.md).
 

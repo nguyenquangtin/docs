@@ -6,7 +6,7 @@ Quite often, your plugin has to save data into a custom database table. Shopware
 
 ## Prerequisites
 
-This guide is built upon the [plugin base guide](../../plugin-base-guide.md), but any plugin will work here. Just note that all examples are using the plugin mentioned above. In order to create a database table, you need to understand plugin migrations [Plugin migrations](../../plugin-fundamentals/database-migrations.md). Also, you'll have to understand how the [dependency injection](../../plugin-fundamentals/dependency-injection.md) works as well.
+This guide is built upon the [plugin base guide](plugin-base-guide.md), but any plugin will work here. Just note that all examples are using the plugin mentioned above. In order to create a database table, you need to understand plugin migrations [Plugin migrations](database-migrations.md). Also, you'll have to understand how the [dependency injection](dependency-injection.md) works as well.
 
 <!-- markdown-link-check-disable-next-line -->
 {% hint style="info" %}
@@ -21,7 +21,7 @@ We'll start with creating a new database table. Make sure to always add your ind
 
 In this guide we'll name our table `swag_example`, you'll find this name a few more times in here, so make sure to remember that one.
 
-As already mentioned in the prerequisites, creating a database table is done via plugin migrations [Plugin migrations](../../plugin-fundamentals/database-migrations.md), head over to this guide to understand how this example works.
+As already mentioned in the prerequisites, creating a database table is done via plugin migrations [Plugin migrations](database-migrations.md), head over to this guide to understand how this example works.
 
 {% code title="<plugin root>/src/Migration/Migration1611664789Example.php" %}
 ```php
@@ -162,7 +162,7 @@ Another thing to note is the `addFlags` call on the `IdField`. Those flags are l
 
 If you want to know more about the flags and how to use them, head over to our guide on how to use flags [Using flags](using-flags.md).
 
-All that's left to do now, is to introduce your `ExampleDefinition` to Shopware by registering your class in your `services.xml` file and by using the `shopware.entity.definition` tag, because Shopware is looking for definitions this way. If your plugin does not have a `services.xml` file yet or you don't know how that's done, head over to our guide about registering a custom service [Add a custom class / service](../../plugin-fundamentals/add-custom-service.md) or our guide about the [Dependency injection](../../plugin-fundamentals/dependency-injection.md).
+All that's left to do now, is to introduce your `ExampleDefinition` to Shopware by registering your class in your `services.xml` file and by using the `shopware.entity.definition` tag, because Shopware is looking for definitions this way. If your plugin does not have a `services.xml` file yet or you don't know how that's done, head over to our guide about registering a custom service [Add a custom class / service](SHOPWARE/docs/guides/plugins/plugins/plugin-fundamentals/add-custom-service.md) or our guide about the [Dependency injection](dependency-injection.md).
 
 Here's the `services.xml` as it should look like:
 

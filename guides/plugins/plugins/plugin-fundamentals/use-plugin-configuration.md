@@ -4,7 +4,7 @@ In our guide on how to [add a plugin configuration](add-plugin-configuration.md)
 
 ## Prerequisites
 
-In order to add a plugin configuration, you sure need to provide your plugin first. However, you won't learn to create a plugin in this guide. Head over to our [plugin base guide](../plugin-base-guide.md) to create your plugin first. It is also recommended to know how to setup a [plugin configuration](add-plugin-configuration.md) in the first instance. In this example, the configurations will be read inside of a subscriber, so knowing the [Listening to events](listening-to-events.md) guide will also be helpful.
+In order to add a plugin configuration, you sure need to provide your plugin first. However, you won't learn to create a plugin in this guide. Head over to our [plugin base guide](plugin-base-guide.md) to create your plugin first. It is also recommended to know how to setup a [plugin configuration](add-plugin-configuration.md) in the first instance. In this example, the configurations will be read inside of a subscriber, so knowing the [Listening to events](listening-to-events.md) guide will also be helpful.
 
 ## Overview
 

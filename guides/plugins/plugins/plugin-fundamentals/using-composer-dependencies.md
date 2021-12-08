@@ -10,7 +10,7 @@ All you need for this guide is a running Shopware 6 instance and full access to 
 
 In this guide we will install [`exporter`](https://github.com/sebastianbergmann/exporter), which provides the functionality to export PHP variables for visualization.
 
-We have to manually remove all of the references to Shopware itself from the `composer.json` file, that was created in the [Plugin base guide](../plugin-base-guide.md), before we add our own dependencies to it. This is done to prevent `composer` from downloading Shopware into the `vendor` folder.
+We have to manually remove all of the references to Shopware itself from the `composer.json` file, that was created in the [Plugin base guide](plugin-base-guide.md), before we add our own dependencies to it. This is done to prevent `composer` from downloading Shopware into the `vendor` folder.
 
 Now we can simply install `exporter` by running `composer require sebastian/exporter` in your plugin directory.
 

@@ -6,7 +6,7 @@ In this guide you'll learn how to add translations to the storefront and how to 
 
 ## Prerequisites
 
-In order to add your own custom translations for your plugin, you first need a plugin as base. Therefore, you can refer to the [Plugin Base Guide](../plugin-base-guide.md).
+In order to add your own custom translations for your plugin, you first need a plugin as base. Therefore, you can refer to the [Plugin Base Guide](plugin-base-guide.md).
 
 ## Snippet file structure
 
@@ -82,7 +82,7 @@ $this->trans('soldProducts', ['%count%' => 3, '%country%' => 'Germany']);
 
 ## Using translation generally in PHP
 
-If we need to use a snippet elsewhere in PHP, we can use [Dependency Injection](../plugin-fundamentals/dependency-injection.md) to inject the `translator`, which implements Symfony's `Symfony\Contracts\Translation\TranslatorInterface`:
+If we need to use a snippet elsewhere in PHP, we can use [Dependency Injection](dependency-injection.md) to inject the `translator`, which implements Symfony's `Symfony\Contracts\Translation\TranslatorInterface`:
 
 ```xml
 <service id="Swag\Example\Service\SwagService" public="true" >

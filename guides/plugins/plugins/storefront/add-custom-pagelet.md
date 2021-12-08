@@ -8,7 +8,7 @@ In short: Pages are exactly that, a fully functioning page of your store with a 
 
 ## Prerequisites
 
-In order to add your own custom pagelet for your plugin, you first need a plugin as base. Therefore, you can refer to the [Plugin Base Guide](../plugin-base-guide.md). Since a pagelet is just part of another page, we're going to use the page created in our guide about [adding a custom page](add-custom-page.md).
+In order to add your own custom pagelet for your plugin, you first need a plugin as base. Therefore, you can refer to the [Plugin Base Guide](plugin-base-guide.md). Since a pagelet is just part of another page, we're going to use the page created in our guide about [adding a custom page](add-custom-page.md).
 
 ## Adding custom pagelet
 

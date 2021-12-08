@@ -6,7 +6,7 @@ Sometimes you want to extend existing entities with some custom information, thi
 
 ## Prerequisites
 
-In order to create your own entity extension for your plugin, you first need a plugin as base. Therefore, you can refer to the [Plugin Base Guide](../../plugin-base-guide.md).
+In order to create your own entity extension for your plugin, you first need a plugin as base. Therefore, you can refer to the [Plugin Base Guide](plugin-base-guide.md).
 
 Also, basic knowledge of [creating a custom entity](add-custom-complex-data.md) and [adding associations](add-data-associations.md) to it are very helpful here.
 
@@ -49,7 +49,7 @@ class CustomExtension extends EntityExtension
 ```
 {% endcode %}
 
-Now we have to register our extension via the DI-container. If you don't know how that's done in general, head over to our guide about registering a custom service [Add a custom class / service](../../plugin-fundamentals/add-custom-service.md) or our guide about the [dependency injection](../../plugin-fundamentals/dependency-injection.md).
+Now we have to register our extension via the DI-container. If you don't know how that's done in general, head over to our guide about registering a custom service [Add a custom class / service](SHOPWARE/docs/guides/plugins/plugins/plugin-fundamentals/add-custom-service.md) or our guide about the [dependency injection](dependency-injection.md).
 
 Here's our `services.xml`:
 
@@ -203,7 +203,7 @@ Of course, this new definition also needs to be registered to the DI container:
 
 #### Adding the new database table
 
-Of course you have to add the new database table via a [database migration](../../plugin-fundamentals/database-migrations.md). Have a look into the guide linked above to see how exactly this is done. Here's the example migration and how it could look like:
+Of course you have to add the new database table via a [database migration](database-migrations.md). Have a look into the guide linked above to see how exactly this is done. Here's the example migration and how it could look like:
 
 ```php
 <?php declare(strict_types=1);
@@ -293,7 +293,7 @@ class CustomExtension extends EntityExtension
 
 In this case, you directly add the `StringField` to the extension class itself. Afterwards we're adding the `Runtime` flag to this field, so Shopware knows that it doesn't have to take care of this new field automatically. We're doing this ourselves now.
 
-For this we need a new subscriber. If you are not familiar with a subscriber, have a look at our [Listening to events](../../plugin-fundamentals/listening-to-events.md) guide.
+For this we need a new subscriber. If you are not familiar with a subscriber, have a look at our [Listening to events](listening-to-events.md) guide.
 
 We can use the DAL event which gets fired every time the product entity is loaded. You can find those kind of events in the respective entities' event class, in this case it is `Shopware\Core\Content\Product\ProductEvents`.
 
@@ -359,4 +359,4 @@ After we've created our subscriber, we have to adjust our `services.xml` to regi
 
 ## Entity extension vs. Custom fields
 
-[Custom fields](../custom-field/add-custom-field.md) are by default configurable by the admin user in the administration and they mostly support scalar types, e.g. a text-field, a number field or the likes. If you'd like to create associations between entities, you'll need to use an entity extension, just like we did here. Of course you can also add scalar values without an association to an entity via an extension.
+[Custom fields](SHOPWARE/docs/guides/plugins/plugins/framework/custom-field/add-custom-field.md) are by default configurable by the admin user in the administration and they mostly support scalar types, e.g. a text-field, a number field or the likes. If you'd like to create associations between entities, you'll need to use an entity extension, just like we did here. Of course you can also add scalar values without an association to an entity via an extension.

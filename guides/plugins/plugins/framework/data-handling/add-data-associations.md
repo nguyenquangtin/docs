@@ -10,7 +10,7 @@ They are **not** created in this guide though!
 
 ## Prerequisites
 
-This guide is built upon the [Plugin Base Guide](../../plugin-base-guide.md), but any plugin will work here. Just note that all examples are using the plugin mentioned above.
+This guide is built upon the [Plugin Base Guide](plugin-base-guide.md), but any plugin will work here. Just note that all examples are using the plugin mentioned above.
 
 In order to add data associations you need an existing entity, as this guide is based on the [Adding custom complex data](add-custom-complex-data.md) guide, you should have a look at it first.
 

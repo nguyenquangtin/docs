@@ -99,5 +99,5 @@ Finally, the `asset` section. If you want to use assets from the `@SwagBasicExam
 Now that you know how the theme inheritance works you can start with own customizations. Here is a list of other related topics where assets can be used.
 
 * [Add SCSS Styling and JavaScript to a theme](add-css-js-to-theme.md)
-* [Customize templates](../plugins/storefront/customize-templates.md)
+* [Customize templates](customize-templates.md)
 

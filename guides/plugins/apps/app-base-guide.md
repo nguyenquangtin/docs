@@ -62,7 +62,7 @@ By default, your app files will be [validated](app-base-guide.md#validation) bef
 Apps get installed as inactive. You can activate them by passing the `--activate` flag to the `app:install` command or by executing the `app:activate` command after installation.
 {% endhint %}
 
-For a complete reference of the structure of the manifest file take a look at the [Manifest reference](../../../resources/references/app-reference/manifest-reference.md).
+For a complete reference of the structure of the manifest file take a look at the [Manifest reference](manifest-reference.md).
 
 ## Setup
 
@@ -237,7 +237,7 @@ $hmac = \hash_hmac('sha256', $request->getBody()->getContents(), $shopSecret);
 
 ## Permissions
 
-Shopware comes with the possibility to create fine grained [Access Control Lists](../plugins/administration/add-acl-rules.md) \(ACLs\). That means that that you need to request permissions if your app needs to read or write data over the API or wants to receive webhooks. The permissions your app needs are defined in the manifest file and are composed of the privilege \(`read`, `create`, `update`, `delete`\) and the entity.
+Shopware comes with the possibility to create fine grained [Access Control Lists](add-acl-rules.md) \(ACLs\). That means that that you need to request permissions if your app needs to read or write data over the API or wants to receive webhooks. The permissions your app needs are defined in the manifest file and are composed of the privilege \(`read`, `create`, `update`, `delete`\) and the entity.
 
 Sample permissions to read, create and update products, as well as delete orders look like this:
 
@@ -329,7 +329,7 @@ Starting from Shopware version 6.4.5.0, the current language id of the shopware 
 
 You can verify the authenticity of the incoming request by checking the `shopware-shop-signature` every request should have a sha256 hmac of the request body, that is signed with the secret your app assigned the shop during the [registration](app-base-guide.md#setup). The mechanism to verify the request is exactly the same as the one used for the [confirmation request](app-base-guide.md#confirmation-request).
 
-You can use a variety of events to react to changes in Shopware that way. See that table [Webhook-Events-Reference](../../../resources/references/app-reference/webhook-events-reference.md) for an overview.
+You can use a variety of events to react to changes in Shopware that way. See that table [Webhook-Events-Reference](webhook-events-reference.md) for an overview.
 
 ### **App lifecycle events**
 

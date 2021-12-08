@@ -278,7 +278,7 @@ As you might have noticed, we are just adding a custom module to the module. How
 * [Add custom component](add-custom-component.md)
 * [Add a menu entry](add-menu-entry.md)
 * [Add a custom route](add-custom-route.md)
-* [Add a custom service](add-custom-service.md)
+* [Add a custom service](SHOPWARE/docs/guides/plugins/plugins/administration/add-custom-service.md)
 * [Add translations](adding-snippets.md)
 * [Customizing another module](customizing-modules.md)
 * [Dealing with data in the administration](using-data-handling.md)

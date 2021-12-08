@@ -6,7 +6,7 @@ In this guide you'll learn how to create a custom storefront controller.
 
 ## Prerequisites
 
-In order to add your own controller for your plugin, you first need a plugin as base. Therefore, you can refer to the [Plugin Base Guide](../plugin-base-guide.md).
+In order to add your own controller for your plugin, you first need a plugin as base. Therefore, you can refer to the [Plugin Base Guide](plugin-base-guide.md).
 
 <!-- markdown-link-check-disable-next-line -->
 {% hint style="info" %}

@@ -562,5 +562,5 @@ You can extend the config to add translated labels for the tabs, blocks and sect
 Now that you know how to configure your theme, here is a list of things you can do.
 
 * [Add SCSS Styling and JavaScript to a theme](add-css-js-to-theme.md) 
-* [Customize Templates](../plugins/storefront/customize-templates.md)
+* [Customize Templates](customize-templates.md)
 

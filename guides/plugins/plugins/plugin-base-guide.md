@@ -5,7 +5,7 @@
 Plugins in Shopware are essentially an extension of [Symfony bundles](plugins-for-symfony-developers.md). Such bundles and plugins can provide their own resources like assets, controllers, services or tests, which you'll learn in the next guides.  
 A plugin is the main way to extend your Shopware 6 instance programmatically.
 
-This guide will teach you the basics of creating your very first plugin from scratch, which then can be installed to your Shopware 6 instance. A guide to install Shopware 6 in the first place can be found [here](../../installation/overview.md).
+This guide will teach you the basics of creating your very first plugin from scratch, which then can be installed to your Shopware 6 instance. A guide to install Shopware 6 in the first place can be found [here](SHOPWARE/docs/guides/installation/overview.md).
 
 ## Prerequisites
 
@@ -186,12 +186,12 @@ And that's basically it.
 
 There's many more things to discover when creating your first plugin. Hence, here's a list of important articles, that may be of interest for you.
 
-* [Installing data with your plugin](plugin-fundamentals/database-migrations.md)
-* [Learn more about the plugin lifecycle methods](plugin-fundamentals/plugin-lifecycle.md)
-* [Adding a configuration to your plugin](plugin-fundamentals/add-plugin-configuration.md)
-* [Learning about the service container](plugin-fundamentals/dependency-injection.md)
-* [Adding a custom service](plugin-fundamentals/add-custom-service.md)
-* [Start listening to events](plugin-fundamentals/listening-to-events.md)
+* [Installing data with your plugin](database-migrations.md)
+* [Learn more about the plugin lifecycle methods](plugin-lifecycle.md)
+* [Adding a configuration to your plugin](add-plugin-configuration.md)
+* [Learning about the service container](dependency-injection.md)
+* [Adding a custom service](SHOPWARE/docs/guides/plugins/plugins/plugin-fundamentals/add-custom-service.md)
+* [Start listening to events](listening-to-events.md)
 
 Furthermore, you should definitely have a look into these sections:
 

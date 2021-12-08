@@ -6,7 +6,7 @@ In this guide you'll learn, how to create a filter for the Shopware administrati
 
 ## Prerequisites
 
-This guide requires you to already have a basic plugin running. If you don't know how to do this in the first place, have a look at our [Plugin base guide](../plugin-base-guide.md).
+This guide requires you to already have a basic plugin running. If you don't know how to do this in the first place, have a look at our [Plugin base guide](plugin-base-guide.md).
 
 ## Creating the filter
 

@@ -88,8 +88,8 @@ The recommended way to migrate plugin data from a source system is to extend tha
 
 Take a look at the following HowTos for your scenario to get a step by step tutorial:
 
-* [Extending a Shopware migration profile](../guides/extending-a-shopware-migration-profile.md): Migrating your first basic plugin data \(via local gateway\)
-* [Extending the Migration Connector](../guides/extending-the-migration-connector.md): Add API support for your migration
-* [Decorating a Shopware Migration Assistant converter](../guides/decorating-a-shopware-migration-assistant-converter.md): Implement a premapping and change the behavior of an existing converter
-* [Creating a new migration profile](../guides/creating-a-new-migration-profile.md): Create a new profile from scratch to support a third party source system \(other than Shopware\)
+* [Extending a Shopware migration profile](extending-a-shopware-migration-profile.md): Migrating your first basic plugin data \(via local gateway\)
+* [Extending the Migration Connector](extending-the-migration-connector.md): Add API support for your migration
+* [Decorating a Shopware Migration Assistant converter](decorating-a-shopware-migration-assistant-converter.md): Implement a premapping and change the behavior of an existing converter
+* [Creating a new migration profile](creating-a-new-migration-profile.md): Create a new profile from scratch to support a third party source system \(other than Shopware\)
 

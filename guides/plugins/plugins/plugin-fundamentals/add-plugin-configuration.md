@@ -4,7 +4,7 @@ The `Shopware plugin system` provides you with the option to create a configurat
 
 ## Prerequisites
 
-To build your own configuration page for your plugin, you first need a plugin as base. Therefore, you can refer to the [Plugin Base Guide](../plugin-base-guide.md).
+To build your own configuration page for your plugin, you first need a plugin as base. Therefore, you can refer to the [Plugin Base Guide](plugin-base-guide.md).
 
 ## Create your plugin configuration
 

@@ -6,7 +6,7 @@ This guide will cover customizing Storefront templates with a plugin.
 
 ## Prerequisites
 
-As most guides, this guide is built upon the [plugin base guide](../plugin-base-guide.md), so you might want to have a look at it. Other than that, knowing [Twig](https://twig.symfony.com/) is a big advantage for this guide, but that's not necessary.
+As most guides, this guide is built upon the [plugin base guide](plugin-base-guide.md), so you might want to have a look at it. Other than that, knowing [Twig](https://twig.symfony.com/) is a big advantage for this guide, but that's not necessary.
 
 ## Getting started
 
